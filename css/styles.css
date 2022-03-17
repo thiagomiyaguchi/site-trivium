@@ -1,3 +1,24 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
 *, *::before, *::after{
     box-sizing: border-box;
 }
@@ -16,6 +37,10 @@ body {
     
 }
 
+a{ 
+    text-decoration: none;
+    color: black;
+}
 header{
     
     text-align: center;
@@ -28,9 +53,8 @@ header{
 }
 
 .logo-img{
-   
-    
-   
+   width: inherit;
+   max-width: 100%;
 }
 
 h1{
@@ -42,13 +66,15 @@ h1{
 
 .linha{
     /* background: linear-gradient(90deg, rgba(247,117,151,1) 15%, rgba(255,244,0,1) 78%); */
-    background: linear-gradient(90deg, rgba(140,3,14,1) 15%, rgba(242,195,53,1) 78%);
+    /* background: linear-gradient(90deg, rgba(140,3,14,1) 15%, rgba(242,195,53,1) 78%); */
+    background: linear-gradient(90deg, rgba(16,37,167,1) 25%, rgba(142,14,140,1) 75%);
+
     height: 8px;
 }
 
 img {
     height: 100%;
-    max-width: 100%;
+    width: 100%;
 }
 
 .foto-principal{
@@ -113,7 +139,8 @@ p{
     
 .navbar{
     list-style-type: none;
-    background-color: #404040;
+    /* background-color: #404040; */
+    background: linear-gradient(90deg, rgba(16,37,167,1) 25%, rgba(142,14,140,1) 75%);
     color: white;
     font-family: 'Crimson Pro', serif;
     font-size: 2rem;
@@ -360,6 +387,7 @@ display: none;
         grid-template-columns: repeat(4,1fr);
         grid-template-rows: auto auto;
         gap: 15px; 
+        /* background-color: blue; */
         padding: 0;
         margin: 20px 0; 
     }
@@ -400,6 +428,7 @@ display: none;
         grid-row: 1/2;
     }
     .card4-texto{
+        display: block;
         grid-column: 4/5;
         grid-row: 2/3;
     }
@@ -484,7 +513,10 @@ display: none;
 }
 
 .rodape{
+    color: white;
+    font-size: 1.5rem;
     text-align: center;
-    background: #CCCCCC;
+    background: linear-gradient(90deg, rgba(16,37,167,1) 25%, rgba(142,14,140,1) 75%);
+    height: 30px;
     max-width: inherit;
 }

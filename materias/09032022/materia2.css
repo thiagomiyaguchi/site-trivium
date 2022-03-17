@@ -36,7 +36,7 @@ body {
 
 .autor-foto{
     border-radius: 50%;
-    width: 75px;
+    width: 60px;
 }
 
 .autor-info{
@@ -50,12 +50,14 @@ body {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+
     
 }
 
-.materia-foto{
+.lista-foto{
  
-  margin: 0 auto;
+  max-width: 100% ;
 
   
 }
@@ -78,6 +80,11 @@ body {
 .depoimento-foto{
     border-radius: 50%;
     width: 150px;
+}
+
+.foto-cabeca{
+  width: 150px;
+  object-position: 0;
 }
 
 .carousel-wrapper{
@@ -119,6 +126,10 @@ body {
   
   .light{
     color:white;
+  }
+
+  .rodape{
+    margin-top: 00px;
   }
   
   @media (max-width: 480px) {
