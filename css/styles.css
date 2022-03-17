@@ -519,4 +519,5 @@ display: none;
     background: linear-gradient(90deg, rgba(16,37,167,1) 25%, rgba(142,14,140,1) 75%);
     height: 30px;
     max-width: inherit;
+    margin-top: 60px;
 }
