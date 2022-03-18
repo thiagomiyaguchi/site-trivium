@@ -33,7 +33,7 @@ body {
 
 .conteudo{
     margin: 0 auto;
-    max-width: 1200px;  
+    max-width: 1245px;  
     
 }
 
@@ -280,7 +280,9 @@ p{
 }
 
 .cards img{
-    max-height: 250px;
+    /* max-height: 300px;
+    max-width: 300px; */
+    aspect-ratio: 1/1;
 }
 
 .cards p{
