@@ -162,3 +162,22 @@ body {
       opacity: 1;
     }
   
+
+@media (min-width: 700px) {
+
+  .hero{
+      justify-content: center;
+      display: flex;
+      height: 100px;
+  }
+  .titulo-capybara{
+      font-size: 4rem;
+  }
+  
+  .logo-img{
+     width: inherit;
+     max-width: 100%;
+     /* max-height: 50%; */
+  }
+  
+}
