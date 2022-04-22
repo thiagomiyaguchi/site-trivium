@@ -25,7 +25,7 @@ time, mark, audio, video {
 
 body {
     background-color: #F2F2F2;
-    /* margin: 0 auto; */
+    margin: 0 auto;
     /* max-width: 1200px;   */
     /* font-family: 'Fraunces', serif;
     font-family: 'Commissioner', sans-serif; */
@@ -34,15 +34,14 @@ body {
 .conteudo{
     margin: 0 auto;
     max-width: 1245px;  
-    
 }
 
 a{ 
     text-decoration: none;
     color: black;
 }
-header{
-    
+
+header{    
     text-align: center;
 }
 
@@ -296,7 +295,7 @@ p{
 
 .cards p{
     font-family: 'Crimson Pro', serif;
-    font-size: 1.25rem;
+    font-size: 1.8rem;
     margin: 0 0 60px 0;
     padding: 0 20px 0 20px;
     line-height: 1.5;
@@ -348,12 +347,13 @@ display: none;
 
 .rodape{
     color: white;
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-align: center;
     background: linear-gradient(90deg, rgba(16,37,167,1) 25%, rgba(142,14,140,1) 75%);
     height: 30px;
     max-width: inherit;
     margin-top: 60px;
+    padding-top: 5px;
 }
 
 
@@ -414,6 +414,7 @@ display: none;
     
     .cards p{
         margin: -15px 0 15px 0;
+        font-size: 1.25rem;
     }
 
     .card1{
@@ -545,6 +546,16 @@ display: none;
    width: inherit;
    max-width: 100%;
    /* max-height: 50%; */
+}
+
+.rodape{
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    background: linear-gradient(90deg, rgba(16,37,167,1) 25%, rgba(142,14,140,1) 75%);
+    height: 30px;
+    max-width: inherit;
+    margin-top: 60px;
 }
 
 }

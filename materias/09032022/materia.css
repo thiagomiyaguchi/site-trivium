@@ -1,15 +1,5 @@
-body {
-    background-color: #F2F2F2;
-    margin: 0 auto;
-    /* max-width: 1200px;   */
-    /* font-family: 'Fraunces', serif;
-    font-family: 'Commissioner', sans-serif; */
-}
-.conteudo{
-    margin: 0 auto;
-    max-width: 1200px;  
-    
-}
+
+
 .artigo{
     /* display: grid;
     grid-template-columns: repeat(4,1fr);
