@@ -35,7 +35,10 @@ body {
     margin: 0 auto;
     max-width: 1245px;  
 }
-
+q{
+    font-style: italic;
+    color:#404040;
+}
 a{ 
     text-decoration: none;
     color: black;
@@ -79,6 +82,7 @@ h1{
 img {
     height: 100%;
     width: 100%;
+    
 }
 
 .foto-principal{
@@ -229,7 +233,7 @@ p{
 }
 
 .destaque-principal{
-    font-size: 3rem;
+    font-size: 2rem;
     margin: 15px 0;
 }
 .destaque-superior{
@@ -452,6 +456,16 @@ display: none;
         display: block;
         grid-column: 4/5;
         grid-row: 2/3;
+    }
+
+    .card5{
+        grid-column: 1/2;
+        grid-row: 3/3;
+    }
+    .card5-texto{
+        display: block;
+        grid-column: 1/2;
+        grid-row: 4/4;
     }
 
     /* Midias ----------------------------------------------------------------------------- */

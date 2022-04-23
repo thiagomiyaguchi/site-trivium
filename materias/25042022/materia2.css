@@ -5,6 +5,8 @@ body {
     /* font-family: 'Fraunces', serif;
     font-family: 'Commissioner', sans-serif; */
 }
+
+
 .conteudo{
     margin: 0 auto;
     max-width: 1200px;  
@@ -69,29 +71,31 @@ body {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center;   
 }
 
 .materia-impar {
     margin-top: 20px;
     display: flex;
-    align-items: center;
-
+    flex-direction: column;
+    /* align-items: center; */
 }
 
 .materia-par {
     margin-top: 20px;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    /* align-items: center; */
 
 }
 
+
+
+
+
 .lista-foto{
- 
   max-width: 100% ;
   margin: 30px 0;
-
-  
 }
 
 .medalha-foto{
@@ -121,6 +125,46 @@ margin: 30px 0;
     padding: 0 15px;
     line-height: 1.6em;
     font-weight: 200;
+}
+
+.materia .topico{
+    margin:30px 0 10px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6em;
+    line-height: 1.6em;
+    font-weight: bold;
+    align-self: start;
+
+}
+
+.materia-impar .topico{
+    margin:30px 0 10px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6em;
+    line-height: 1.6em;
+    font-weight: bold;
+    align-self: start;
+
+}
+
+.materia-par .topico{
+    margin:30px 0 10px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6em;
+    line-height: 1.6em;
+    font-weight: bold;
+    align-self: start;
+
+}
+
+.materia .legenda-foto{
+    margin: 0 0 15px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+}
+
+.foto-legenda{
+    margin-top: 15px;
 }
 
 .depoimento{
@@ -183,6 +227,21 @@ margin: 30px 0;
   }
 
 @media (min-width: 700px) {
+
+    .materia-impar {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        /* align-items: center; */
+    }
+    
+    .materia-par {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row-reverse;
+        /* align-items: center; */
+    
+    }
 
     .materia p{
         /* font-family: 'Open Sans', sans-serif; */
